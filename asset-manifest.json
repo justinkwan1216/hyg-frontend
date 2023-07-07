@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hyg-frontend/static/css/main.861cb24a.css",
+    "main.js": "/hyg-frontend/static/js/main.bfa3552d.js",
+    "static/js/787.84d1228e.chunk.js": "/hyg-frontend/static/js/787.84d1228e.chunk.js",
+    "index.html": "/hyg-frontend/index.html",
+    "main.861cb24a.css.map": "/hyg-frontend/static/css/main.861cb24a.css.map",
+    "main.bfa3552d.js.map": "/hyg-frontend/static/js/main.bfa3552d.js.map",
+    "787.84d1228e.chunk.js.map": "/hyg-frontend/static/js/787.84d1228e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.861cb24a.css",
+    "static/js/main.bfa3552d.js"
+  ]
+}
