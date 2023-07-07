@@ -5,7 +5,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import Divframer72rtr7 from "./pages/Divframer72rtr7";
-import PxDesktop from "./pages/PxDesktop";
 import { useEffect } from "react";
 
 function App() {
@@ -28,10 +27,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/1440px-desktop":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -51,7 +46,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Divframer72rtr7 />} />
-      <Route path="/1440px-desktop" element={<PxDesktop />} />
     </Routes>
   );
 }

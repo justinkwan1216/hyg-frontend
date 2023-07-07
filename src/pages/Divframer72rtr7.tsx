@@ -95,24 +95,18 @@ const Divframer72rtr7: FunctionComponent = () => {
           alt=""
           src="/outputonlinepngtools--20230313t012231-21@2x.png"
         />
-        <DropdownButton
-          className={styles.moreWrapper}
-          title="More"
-          variant="primary"
-          align="start"
-          drop="down"
-        >
-          <Dropdown.Item>More</Dropdown.Item>
-        </DropdownButton>
-        <DropdownButton
-          className={styles.developersWrapper}
-          title="Developers"
-          variant="primary"
-          align="start"
-          drop="down"
-        >
-          <Dropdown.Item>Developers</Dropdown.Item>
-        </DropdownButton>
+        <div className={styles.itemMoreMenuButtonWrapper}>
+          <div className={styles.itemMoreMenuButton}>
+            <div className={styles.more1}>More</div>
+            <img className={styles.svgIcon1} alt="" src="/svg6.svg" />
+          </div>
+        </div>
+        <div className={styles.itemDevelopersMenuButtWrapper}>
+          <div className={styles.itemDevelopersMenuButt1}>
+            <div className={styles.more1}>Developers</div>
+            <img className={styles.svgIcon2} alt="" src="/svg7.svg" />
+          </div>
+        </div>
         <DropdownButton
           className={styles.hygieiaWrapper}
           title="Hygieia"
@@ -122,30 +116,24 @@ const Divframer72rtr7: FunctionComponent = () => {
         >
           <Dropdown.Item>Hygieia</Dropdown.Item>
         </DropdownButton>
-        <DropdownButton
-          className={styles.enterpriseWrapper}
-          title="Enterprise"
-          variant="primary"
-          align="start"
-          drop="down"
-        >
-          <Dropdown.Item>Enterprise</Dropdown.Item>
-        </DropdownButton>
-        <DropdownButton
-          className={styles.communityWrapper}
-          title="Community"
-          variant="primary"
-          align="start"
-          drop="down"
-        >
-          <Dropdown.Item>Community</Dropdown.Item>
-        </DropdownButton>
+        <div className={styles.itemEnterpriseMenuButtoWrapper}>
+          <div className={styles.itemMoreMenuButton}>
+            <div className={styles.more1}>Enterprise</div>
+            <img className={styles.svgIcon3} alt="" src="/svg8.svg" />
+          </div>
+        </div>
+        <div className={styles.itemCommunityMenuButtonWrapper}>
+          <div className={styles.itemMoreMenuButton}>
+            <div className={styles.more1}>Community</div>
+            <img className={styles.svgIcon4} alt="" src="/svg9.svg" />
+          </div>
+        </div>
         <img
           className={styles.buttonSwitchToDarkTheme}
           alt=""
           src="/button--switch-to-dark-theme--svg.svg"
         />
-        <div className={styles.link1}>
+        <div className={styles.link}>
           <img className={styles.svgIcon5} alt="" src="/svg5.svg" />
           <div className={styles.spanchakraText}>
             <div className={styles.languagesEn}>Languages EN</div>

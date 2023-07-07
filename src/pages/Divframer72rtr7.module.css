@@ -202,6 +202,7 @@
     var(--padding-0);
   align-items: flex-start;
   justify-content: flex-start;
+  font-size: var(--font-size-60xl);
 }
 .outputOnlinepngtools202304 {
   position: absolute;
@@ -211,50 +212,65 @@
   height: 50px;
   object-fit: cover;
 }
-.moreWrapper {
-  width: 63.68000030517578px;
+.more1 {
+  position: relative;
+  line-height: 25.6px;
+  font-weight: 500;
+}
+.itemMoreMenuButton {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-0) 8.59000015258789px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.itemMoreMenuButtonWrapper {
   position: absolute;
   top: 22.21px;
   left: 626.49px;
+  width: 63.68px;
+  height: 41.59px;
 }
-.communityWrapper,
-.developersWrapper,
-.enterpriseWrapper,
+.itemDevelopersMenuButt1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xs) 0.01000213623046875px 8.59000015258789px
+    var(--padding-0);
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.itemDevelopersMenuButtWrapper {
+  position: absolute;
+  top: 22.21px;
+  left: 246.49px;
+  width: 110.19px;
+  height: 41.59px;
+}
 .hygieiaWrapper {
-  width: 110.19000244140625px;
+  width: 80.19000244140625px;
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 22.21px;
-  left: 246.49px;
-}
-.communityWrapper,
-.enterpriseWrapper,
-.hygieiaWrapper {
-  width: 80.19000244140625px;
   left: 149.49px;
 }
-.communityWrapper,
-.enterpriseWrapper {
-  width: 102.12999725341797px;
+.itemCommunityMenuButtonWrapper,
+.itemEnterpriseMenuButtoWrapper {
+  position: absolute;
   top: 23.21px;
   left: 375.49px;
+  width: 102.13px;
+  height: 41.59px;
 }
-.communityWrapper {
-  width: 111.19000244140625px;
+.itemCommunityMenuButtonWrapper {
   left: 496.49px;
-}
-.link1 {
-  position: absolute;
-  top: calc(50% - 369.29px);
-  left: 1329.47px;
-  border-radius: var(--br-9xs);
-  width: 153.02px;
-  height: 32px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-300);
+  width: 111.19px;
 }
 .divframer64f1t21 {
   position: absolute;
@@ -264,7 +280,6 @@
   width: 1920px;
   height: 800px;
   overflow: hidden;
-  font-size: var(--font-size-60xl);
   font-family: var(--font-inter);
 }
 .divframerL4fk58Icon {
@@ -784,7 +799,7 @@
 }
 @media screen and (max-width: 420px) {
   .divframer72rtr7 {
-    width: 960px;
-    height: 2155px;
+    width: 680px;
+    height: 1555px;
   }
 }
