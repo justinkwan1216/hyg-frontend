@@ -201,7 +201,7 @@
   position: absolute;
   top: 577px;
   left: 150px;
-  font-size: 32px;
+  font-size: var(--font-size-13xl);
   line-height: 50px;
   text-align: left;
   display: flex;
