@@ -4,7 +4,11 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Divframer72rtr7 from "./pages/Divframer72rtr7";
+import Phone from "./pages/Phone";
+import Laptop from "./pages/Laptop";
+import Desktop from "./pages/Desktop";
+import Tablet from "./pages/Tablet";
+import MiniPhone from "./pages/MiniPhone";
 import { useEffect } from "react";
 
 function App() {
@@ -27,6 +31,22 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/laptop":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/desktop":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/tablet":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/miniphone":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +65,11 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Divframer72rtr7 />} />
+      <Route path="/" element={<Phone />} />
+      <Route path="/laptop" element={<Laptop />} />
+      <Route path="/desktop" element={<Desktop />} />
+      <Route path="/tablet" element={<Tablet />} />
+      <Route path="/miniphone" element={<MiniPhone />} />
     </Routes>
   );
 }
